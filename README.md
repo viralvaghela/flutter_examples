@@ -7,7 +7,8 @@ Package : flutter_advanced_drawer <br>
 ![drawer](screenshots/drawer.png)<br>
 
 Bottom Navigation Bar <br>
-![Bottom Navigation Bar](screenshots/bottomnavbar.png)
+![Bottom Navigation Bar](screenshots/bottomnavbar.png)<br>
 
-
+Shimmer <br>
+![Shimmer](screenshots/sheemer.jpg)
 

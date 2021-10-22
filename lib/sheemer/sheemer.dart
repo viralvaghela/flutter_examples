@@ -9,27 +9,29 @@ class Sheemer extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: SingleChildScrollView(
-          child: Column(
-            children: const [
-              ProfilePageShimmer(
-                isDarkMode: true,
-                isPurplishMode: true,
-                hasBottomBox: true,
-              ),
-              ListTileShimmer(
-                isDarkMode: true,
-                isPurplishMode: true,
-                hasBottomBox: true,
-              ),
-              PlayStoreShimmer(
-                isDarkMode: true,
-                isPurplishMode: true,
-                hasBottomSecondLine: true,
-                hasBottomFirstLine: true,
-              ),
-            ],
+      home: SafeArea(
+        child: Scaffold(
+          body: SingleChildScrollView(
+            child: Column(
+              children: const [
+                ProfilePageShimmer(
+                  isDarkMode: true,
+                  isPurplishMode: true,
+                  hasBottomBox: true,
+                ),
+                ListTileShimmer(
+                  isDarkMode: true,
+                  isPurplishMode: true,
+                  hasBottomBox: true,
+                ),
+                PlayStoreShimmer(
+                  isDarkMode: true,
+                  isPurplishMode: true,
+                  hasBottomSecondLine: true,
+                  hasBottomFirstLine: true,
+                ),
+              ],
+            ),
           ),
         ),
       ),
